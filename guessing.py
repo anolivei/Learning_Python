@@ -6,7 +6,7 @@
 #    By: anolivei <anolivei@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/06 21:38:47 by anolivei          #+#    #+#              #
-#    Updated: 2021/05/08 19:32:39 by anolivei         ###   ########.fr        #
+#    Updated: 2021/05/08 21:54:03 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ def guessing():
 	print("************************")
 	print("*** Playing Guessing ***")
 	print("************************")
-	
+
 	secret_number = rd.randrange(1,101)
 	guess = int(input("Type a number between 1 and 100: "))
 	points = 1000
@@ -34,6 +34,7 @@ def guessing():
 	while (right == 0):
 		if (guess < 1 or guess > 100):
 			print("You must choose a number between 1 and 100!")
+			guess = int(input("Type a number between 1 and 100: "))
 			points -= abs(secret_number - guess)
 			continue
 		higher	= guess > secret_number
