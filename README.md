@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Here are some notes and programs in python made by me during my studies
+Here are some python notes and programs made by me during my studies
 
 <!-- ## :sparkles: Features ##
 
