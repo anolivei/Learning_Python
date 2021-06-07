@@ -72,10 +72,11 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ```bash
 # Clone this project
 $ git clone https://github.com/anolivei/learning_python
-```
+
 
 # Access
 $ cd learning_python
+```
 
 Made with :heart: by <a href="https://github.com/anolivei" target="_blank">anolivei</a>
 
