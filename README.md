@@ -9,13 +9,13 @@
 <h1 align="center">Learning_Python</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{anolivei}}/learning_python?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/anolivei/learning_python?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{anolivei}}/learning_python?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/anolivei/learning_python?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{anolivei}}/learning_python?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/anolivei/learning_python?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{anolivei}}/learning_python?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/anolivei/learning_python?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/learning_python?color=56BEB8" /> -->
 
@@ -91,7 +91,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{anolivei}}" target="_blank">{{anolivei}}</a>
+Made with :heart: by <a href="https://github.com/anolivei" target="_blank">anolivei</a>
 
 &#xa0;
 
