@@ -1,18 +1,46 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    ft_string.py                                       :+:      :+:    :+:    #
+#    mario.py                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: anolivei <anolivei@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/06/06 17:36:18 by anolivei          #+#    #+#              #
-#    Updated: 2021/06/08 00:40:28 by anolivei         ###   ########.fr        #
+#    Created: 2021/06/07 17:18:50 by anolivei          #+#    #+#              #
+#    Updated: 2021/06/07 17:30:54 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-from cs50 import get_string
+# 1
+for i in range(4):
+	print("?", end="")
+print()
 
-s = get_string("What's your name?\n")
-print("hello, " + s)
-print(f"hello, {s}")
-print("hello, {}".format(s))
+print()
+
+# 2
+print("?" * 4)
+
+print()
+
+# 3
+for i in range(3):
+	print("#")
+
+print()
+
+# 4
+print("#\n" * 3, end="")
+
+print()
+
+# 5
+for i in range(3):
+	for j in range(3):
+		print("#", end="")
+	print()
+
+print()
+
+# 6
+for i in range(3):
+	print("#" * 3)

@@ -1,18 +1,22 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    ft_string.py                                       :+:      :+:    :+:    #
+#    scores.py                                          :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: anolivei <anolivei@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/06/06 17:36:18 by anolivei          #+#    #+#              #
-#    Updated: 2021/06/08 00:40:28 by anolivei         ###   ########.fr        #
+#    Created: 2021/06/08 01:19:45 by anolivei          #+#    #+#              #
+#    Updated: 2021/06/08 01:26:07 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-from cs50 import get_string
+'''
+scores = []
+scores.append(72)
+scores.append(73)
+scores.append(33)
+'''
+scores = [72, 73, 33]
 
-s = get_string("What's your name?\n")
-print("hello, " + s)
-print(f"hello, {s}")
-print("hello, {}".format(s))
+print("Average: {}".format(round(sum(scores) / len(scores), 2)))
+print(f"Average: {sum(scores) / len(scores)}")

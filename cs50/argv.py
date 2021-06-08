@@ -1,18 +1,25 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    ft_string.py                                       :+:      :+:    :+:    #
+#    argv.py                                            :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: anolivei <anolivei@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/06/06 17:36:18 by anolivei          #+#    #+#              #
-#    Updated: 2021/06/08 00:40:28 by anolivei         ###   ########.fr        #
+#    Created: 2021/06/08 13:22:07 by anolivei          #+#    #+#              #
+#    Updated: 2021/06/08 13:42:49 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-from cs50 import get_string
+from sys import argv
 
-s = get_string("What's your name?\n")
-print("hello, " + s)
-print(f"hello, {s}")
-print("hello, {}".format(s))
+# 1 way (printing argv[0])
+for i in range(len(argv)):
+	print(argv[i])
+
+# 2 way
+for i in range(1,len(argv)):
+	print(argv[i])
+
+# 3 way (printing argv[0])
+for arg in argv:
+	print(arg)
