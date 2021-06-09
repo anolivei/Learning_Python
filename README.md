@@ -63,7 +63,15 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python3.9.1](https://www.python.org/) installed.
+Before starting :checkered_flag:, you need to have:
+- Pandas
+- Flask
+- qrcode
+- SpeechRecognition
+- portaudio
+- pyaudio
+- PIL
+
 
 ## :checkered_flag: Starting ##
 
