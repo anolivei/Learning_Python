@@ -1,0 +1,7 @@
+. any character
+.* 0 or more characters
+.+ 1 or more characters
+? optional
+
+^ start input
+$ end input
