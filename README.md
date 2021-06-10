@@ -27,8 +27,25 @@ $ python game.py
 ```
 
 - In harvard_course_cs50 there are some programs made during the [python class](https://cs50.harvard.edu/college/2021/spring/weeks/6/);
+- In learning_django there are some programs made during the [django class](https://cs50.harvard.edu/web/2020/weeks/3/);
+```shel
+# creating a project
+django-admin startproject project_name
+
+# going to the project folder
+cd project_name
+
+# running the server
+python manage.py runserver
+
+# creating an application
+python manage.py startapp app_name
+
+# in settings.py add you 'app_name' in "INSTALLED_APPS"
+```
 - In learning_flask there are some programs using flask;
 - In learning_pandas there are some programs using pandas.
+
 
 ## Technologies ##
 

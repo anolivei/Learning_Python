@@ -1,0 +1,11 @@
+django==3.2.4
+pandas==1.2.4
+flask==2.0.0
+speech_recognition==3.8.1
+re==2.2.1
+PIL==8.2.0
+csv==1.0
+qrcode
+flask_restful
+cs50
+sys
