@@ -19,7 +19,7 @@
 ## About ##
 
 Here are some python notes and programs made by me during my studies:
-- In game_guessing_gallows you can choose between a guessing number (1) game and a gallows game (2);
+- In game_guessing_gallows you can choose between a guessing number game (1) and a gallows game (2);
 
 ```shell
 # To execute the game
