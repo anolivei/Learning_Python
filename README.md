@@ -1,12 +1,4 @@
-<!-- <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Learning_Python" />
-
-  &#xa0;
-
-  <a href="https://learning_python.netlify.app">Demo</a>
-</div> -->
-
-<h1 align="center">Learning_Python</h1>
+<h1 align="center">Learning Python</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/anolivei/learning_python?color=56BEB8">
@@ -14,45 +6,31 @@
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/anolivei/learning_python?color=56BEB8">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/anolivei/learning_python?color=56BEB8">
-
-  <!-- <img alt="License" src="https://img.shields.io/github/license/anolivei/learning_python?color=56BEB8"> -->
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/learning_python?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/learning_python?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/learning_python?color=56BEB8" /> -->
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Learning_Python 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
-
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="#about">About</a> &#xa0; | &#xa0; 
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#starting">Starting</a> &#xa0;
 </p>
 
 <br>
 
-## :dart: About ##
+## About ##
 
-Here are some python notes and programs made by me during my studies
+Here are some python notes and programs made by me during my studies:
+- In game_guessing_gallows you can choose between a guessing number (1) game and a gallows game (2);
 
-<!-- ## :sparkles: Features ##
+```shell
+# To execute the game
+$ python game.py
+```
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;-->
+- In harvard_course_cs50 there are some programs made during the [python class](https://cs50.harvard.edu/college/2021/spring/weeks/6/);
+- In learning_flask there are some programs using flask;
+- In learning_pandas there are some programs using pandas.
 
-## :rocket: Technologies ##
+## Technologies ##
 
 The following tools were used in this project:
 
@@ -60,32 +38,21 @@ The following tools were used in this project:
 - [Pandas](https://pandas.pydata.org/)
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 - [CS50 Lib](https://cs50.readthedocs.io/libraries/cs50/python/)
+- [QRCode](https://pypi.org/project/qrcode/)
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [PyAudio](https://pypi.org/project/PyAudio/)
 
-## :white_check_mark: Requirements ##
+## Starting ##
 
-Before starting :checkered_flag:, you need to have:
-- Pandas
-- Flask
-- qrcode
-- SpeechRecognition
-- portaudio
-- pyaudio
-- PIL
-
-
-## :checkered_flag: Starting ##
-
-```bash
+```shell
 # Clone this project
 $ git clone https://github.com/anolivei/learning_python
 
-
 # Access
 $ cd learning_python
+
+# Choose the directory
+$ cd directory
 ```
-
-Made with :heart: by <a href="https://github.com/anolivei" target="_blank">anolivei</a>
-
 &#xa0;
-
 <a href="#top">Back to top</a>
