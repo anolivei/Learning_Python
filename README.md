@@ -30,21 +30,24 @@ $ python game.py
 - In learning_django there are some programs made during the [django class](https://cs50.harvard.edu/web/2020/weeks/3/);
 ```shell
 # creating a project
-django-admin startproject project_name
+$ django-admin startproject project_name
 
 # going to the project folder
-cd project_name
-
-# running the server
-python manage.py runserver
+$ cd project_name
 
 # creating an application
-python manage.py startapp app_name
-
-# migrate data into the database / allow us to create all the default tables inside the django's data base
-python manage.py migrate
+$ python manage.py startapp app_name
 
 # in settings.py add you 'app_name' in "INSTALLED_APPS"
+# in settings.py add you 'app_name' in urlpatterns
+# make the configurations
+
+# running the server
+$ python manage.py runserver
+
+# migrate data into the database / allow us to create all the default tables inside the django's data base
+$ python manage.py migrate
+
 ```
 - In learning_flask there are some programs using flask;
 - In learning_pandas there are some programs using pandas.
@@ -57,6 +60,7 @@ The following tools were used in this project:
 - [Python](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [Django](https://www.djangoproject.com/)
 - [CS50 Lib](https://cs50.readthedocs.io/libraries/cs50/python/)
 - [QRCode](https://pypi.org/project/qrcode/)
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
