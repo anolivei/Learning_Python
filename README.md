@@ -28,7 +28,7 @@ $ python game.py
 
 - In harvard_course_cs50 there are some programs made during the [python class](https://cs50.harvard.edu/college/2021/spring/weeks/6/);
 - In learning_django there are some programs made during the [django class](https://cs50.harvard.edu/web/2020/weeks/3/);
-```shel
+```shell
 # creating a project
 django-admin startproject project_name
 
@@ -40,6 +40,9 @@ python manage.py runserver
 
 # creating an application
 python manage.py startapp app_name
+
+# migrate data into the database / allow us to create all the default tables inside the django's data base
+python manage.py migrate
 
 # in settings.py add you 'app_name' in "INSTALLED_APPS"
 ```
